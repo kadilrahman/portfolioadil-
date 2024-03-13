@@ -40,7 +40,7 @@ export const Social = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "../imports/dsresume.doc",
+      href: "https://docs.google.com/document/d/1xInWROoyDhZx9kQSWSvVxrqYMtkRpY_c/edit?usp=sharing&ouid=100084612999185821456&rtpof=true&sd=true",
       style: "rounded-br-md",
       download: true,
     },
