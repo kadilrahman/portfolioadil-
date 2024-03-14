@@ -35,9 +35,9 @@ export const About = () => {
     
     <div
       name="about"
-      className="w-full bg-gradient-to-b from-black to-gray-800 text-white overflow-hidden "
+      className="w-full bg-gradient-to-b from-black to-gray-800 text-white overflow-hidden"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center min-h-screen md:min-h-0 md:h-auto">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center min-h-screen md:min-h-0 md:h-auto sm:pt-32">
         <div className="pb-8 pt-20 md:pt-20">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
