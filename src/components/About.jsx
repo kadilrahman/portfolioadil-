@@ -1,8 +1,38 @@
 import React from 'react'
-import HeroImage from '../imports/IMG_0098.jpg'
-
+import HeroImage from '../imports/IMG_0098.jpg';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 export const About = () => {
+  const socialLinks = [
+    {
+      id: 1,
+      icon: <FaLinkedin size={30} />,
+      name: 'LinkedIn',
+      href: "https://www.linkedin.com/in/k-adil-rahman-327905182",
+    },
+    {
+      id: 2,
+      icon: <FaGithub size={30} />,
+      name: 'GitHub',
+      href: "https://github.com/kadilrahman",
+    },
+    {
+      id: 3,
+      icon: <HiOutlineMail size={30} />,
+      name: 'Mail',
+      href: "mailto:rehman.adil17@gmail.com",
+    },
+    {
+      id: 4,
+      icon: <BsFillPersonLinesFill size={30} />,
+      name: 'Resume',
+      href: "https://docs.google.com/document/d/1xInWROoyDhZx9kQSWSvVxrqYMtkRpY_c/edit?usp=sharing&ouid=100084612999185821456&rtpof=true&sd=true",
+    },
+  ];
+  
   return (
+    
     <div
       name="about"
       className="w-full bg-gradient-to-b from-black to-gray-800 text-white overflow-hidden "
@@ -44,6 +74,14 @@ export const About = () => {
           <img src={HeroImage} alt="About" className="rounded-2xl mx-auto w-2/3 md:w-1/4 lg:w-1/4 mt-4 " />
           
           {/* Text content container */}
+        </div>
+         {/* Social Links for Mobile View */}
+         <div className="mt-6 lg:hidden flex justify-center space-x-4">
+          {socialLinks.map(({ id, icon, href }) => (
+            <a key={id} href={href} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+              {icon}
+            </a>
+          ))}
         </div>
       </div>
     </div>
