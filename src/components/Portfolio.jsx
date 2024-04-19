@@ -11,7 +11,7 @@ import color from "../imports/color.png"
 import barber from "../imports/barber.png"
 import ecommerce from "../imports/ecommerce.jpeg"
 import portfolio from "../imports/portfolio.png"
-
+import recommender from "../imports/recommend.png"
 
 
 
@@ -359,6 +359,38 @@ export const Portfolio = () => {
         ReadMe: [
           { type: "h2", content: "Objective" },
           { type: "p", content: "I accomplished the development of a website and application for a client, ensuring fulfilment of all their stated requirements. Working along with Javascript, HTML and CSS, the project included front-end. The project enables free flow browsing through produces with a complete functional product presentation through website. I accomplished to satisfy client’s needs by tweaking the fullstack development. The project involved in direct communication with client and the project was planned accordingly." },
+          
+        ],
+      },
+      {
+        id: 13,
+        src: recommender,
+        title: "Music Recommender System",
+        info: "The Music Recommender System is an advanced, interactive tool designed to personalize music discovery. Leveraging the Spotify API, this system analyzes user inputs and song lyrics to recommend songs that resonate with individual tastes and preferences. It integrates machine learning algorithms to enhance accuracy and user engagement, making music discovery a deeply personalized experience.",
+        githubUrl: "https://github.com/kadilrahman/recommender-spotify.git",
+        ReadMe: [
+          { type: "h2", content: "Objective" },
+          { type: "p", content: "To develop a user-friendly web application that provides song recommendations based on user preferences." },
+          { type: "p", content: "To implement machine learning algorithms for analyzing and processing song data effectively." },
+          { type: "p", content: "To integrate the Spotify API to fetch real-time data and ensure a broad database of songs." },
+          { type: "p", content: "To improve music discovery by utilizing natural language processing on song lyrics for better matching." },
+          { type: "h2", content: "Technologies Used" },
+          { type: "p", content: "Python: For backend logic and machine learning computations." },
+          { type: "p", content: "Flask: As the web framework to handle HTTP requests and serve the web pages." },
+          { type: "p", content: "HTML/CSS/JavaScript: For crafting a responsive and intuitive front-end." },
+          { type: "p", content: "Pandas and NLTK: Used in data manipulation and natural language processing respectively" },
+          { type: "p", content: "Scikit-Learn: Employed for machine learning algorithms including TF-IDF vectorization and cosine similarity for song recommendations." },
+          { type: "p", content: "Spotipy: A lightweight Python library for the Spotify Web API." },
+          { type: "h2", content: "Challenges" },
+          { type: "p", content: "Data Handling: Managing and processing a large dataset from Spotify was challenging, especially ensuring the speed and efficiency of the system." },
+          { type: "p", content: "Machine Learning Implementation: Tuning the machine learning model to improve recommendation accuracy involved significant experimentation and optimization." },
+          { type: "p", content: "API Integration: Integrating the Spotify API required understanding its limits and managing authentication and session management efficiently." },
+          { type: "h2", content: "Results" },
+          { type: "p", content: "The Music Recommender System successfully provides users with song suggestions based on their input. It can dynamically adjust recommendations based on varying user inputs and has shown a high level of accuracy and user satisfaction in preliminary feedback." },
+          { type: "h2", content: "Learning Outcomes" },
+          { type: "p", content: "Gained deeper insights into the application of natural language processing in real-world projects." },
+          { type: "p", content: "Enhanced skills in full-stack web development and learned to handle API integrations more effectively." },
+          { type: "p", content: "Improved understanding of machine learning model deployment in web applications, dealing with live data and user interactions." },
           
         ],
       },
